@@ -1,0 +1,10 @@
+﻿<xapCache source="C:\Users\Anubhav\Desktop\Push Notifications\WindowsPhone7Notification\NotifyMe\Bin\Debug\NotifyMe.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="10/23/2012 11:16:14 AM">
+  <file source="C:\Users\Anubhav\Desktop\Push Notifications\WindowsPhone7Notification\NotifyMe\Bin\Debug\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="10/22/2012 1:39:13 PM" />
+  <file source="C:\Users\Anubhav\Desktop\Push Notifications\WindowsPhone7Notification\NotifyMe\Background.png" archivePath="Background.png" lastWriteTime="10/16/2012 5:12:22 PM" />
+  <file source="C:\Users\Anubhav\Desktop\Push Notifications\WindowsPhone7Notification\NotifyMe\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="10/16/2012 5:12:22 PM" />
+  <file source="C:\Users\Anubhav\Desktop\Push Notifications\WindowsPhone7Notification\NotifyMe\obj\Debug\NotifyMe.dll" archivePath="NotifyMe.dll" lastWriteTime="10/23/2012 11:16:14 AM" />
+  <file source="C:\Users\Anubhav\Desktop\Push Notifications\WindowsPhone7Notification\WindowsPhoneNotificationService\Bin\Debug\WindowsPhoneNotificationService.dll" archivePath="WindowsPhoneNotificationService.dll" lastWriteTime="10/23/2012 11:16:13 AM" />
+  <file source="C:\Users\Anubhav\Desktop\Push Notifications\WindowsPhone7Notification\NotifyMe\ServiceReferences.ClientConfig" archivePath="ServiceReferences.ClientConfig" lastWriteTime="10/23/2012 10:42:11 AM" />
+  <file source="C:\Users\Anubhav\Desktop\Push Notifications\WindowsPhone7Notification\NotifyMe\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="10/16/2012 5:12:22 PM" />
+  <file source="C:\Users\Anubhav\Desktop\Push Notifications\WindowsPhone7Notification\NotifyMe\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="10/23/2012 11:16:14 AM" />
+</xapCache>
