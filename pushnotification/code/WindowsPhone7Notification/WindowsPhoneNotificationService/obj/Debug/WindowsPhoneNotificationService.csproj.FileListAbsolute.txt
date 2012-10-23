@@ -1,5 +1,0 @@
-C:\Users\Anubhav\documents\visual studio 2010\projects\WebApplication4\WindowsPhoneNotificationService\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Anubhav\documents\visual studio 2010\projects\WebApplication4\WindowsPhoneNotificationService\Bin\Debug\WindowsPhoneNotificationService.dll
-C:\Users\Anubhav\documents\visual studio 2010\projects\WebApplication4\WindowsPhoneNotificationService\Bin\Debug\WindowsPhoneNotificationService.pdb
-C:\Users\Anubhav\documents\visual studio 2010\projects\WebApplication4\WindowsPhoneNotificationService\obj\Debug\WindowsPhoneNotificationService.dll
-C:\Users\Anubhav\documents\visual studio 2010\projects\WebApplication4\WindowsPhoneNotificationService\obj\Debug\WindowsPhoneNotificationService.pdb
