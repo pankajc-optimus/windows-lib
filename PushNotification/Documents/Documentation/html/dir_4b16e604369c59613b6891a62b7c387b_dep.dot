@@ -1,0 +1,9 @@
+digraph "C:/Users/Anubhav/Desktop/Push Notifications/WindowsPhone7Notification/WindowsPhoneNotificationService/Properties" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_fd40313b2ea2a191417b66f98ae68ef5 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="WindowsPhoneNotificationService" fontname="Helvetica", fontsize="10", URL="dir_fd40313b2ea2a191417b66f98ae68ef5.html"]
+  dir_4b16e604369c59613b6891a62b7c387b [shape=box, label="Properties", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_4b16e604369c59613b6891a62b7c387b.html"];
+  }
+}
