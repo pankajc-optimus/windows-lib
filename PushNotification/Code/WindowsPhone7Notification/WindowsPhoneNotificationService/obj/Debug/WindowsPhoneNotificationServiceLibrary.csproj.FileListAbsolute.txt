@@ -1,0 +1,15 @@
+C:\Users\Anubhav\Desktop\WindowsPhone7Notifications\WindowsPhoneNotificationService\Bin\Debug\WindowsPhoneNotificationService.dll
+C:\Users\Anubhav\Desktop\WindowsPhone7Notifications\WindowsPhoneNotificationService\Bin\Debug\WindowsPhoneNotificationService.pdb
+C:\Users\Anubhav\Desktop\WindowsPhone7Notifications\WindowsPhoneNotificationService\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Anubhav\Desktop\WindowsPhone7Notifications\WindowsPhoneNotificationService\obj\Debug\WindowsPhoneNotificationService.dll
+C:\Users\Anubhav\Desktop\WindowsPhone7Notifications\WindowsPhoneNotificationService\obj\Debug\WindowsPhoneNotificationService.pdb
+C:\Users\Anubhav\Desktop\WindowsPhone7Notifications - Copy\WindowsPhoneNotificationService\Bin\Debug\WindowsPhoneNotificationService.dll
+C:\Users\Anubhav\Desktop\WindowsPhone7Notifications - Copy\WindowsPhoneNotificationService\Bin\Debug\WindowsPhoneNotificationService.pdb
+C:\Users\Anubhav\Desktop\WindowsPhone7Notifications - Copy\WindowsPhoneNotificationService\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Anubhav\Desktop\WindowsPhone7Notifications - Copy\WindowsPhoneNotificationService\obj\Debug\WindowsPhoneNotificationService.dll
+C:\Users\Anubhav\Desktop\WindowsPhone7Notifications - Copy\WindowsPhoneNotificationService\obj\Debug\WindowsPhoneNotificationService.pdb
+C:\Users\Anubhav\Desktop\Push Notifications\WindowsPhone7Notification\WindowsPhoneNotificationService\Bin\Debug\WindowsPhoneNotificationService.dll
+C:\Users\Anubhav\Desktop\Push Notifications\WindowsPhone7Notification\WindowsPhoneNotificationService\Bin\Debug\WindowsPhoneNotificationService.pdb
+C:\Users\Anubhav\Desktop\Push Notifications\WindowsPhone7Notification\WindowsPhoneNotificationService\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Anubhav\Desktop\Push Notifications\WindowsPhone7Notification\WindowsPhoneNotificationService\obj\Debug\WindowsPhoneNotificationService.dll
+C:\Users\Anubhav\Desktop\Push Notifications\WindowsPhone7Notification\WindowsPhoneNotificationService\obj\Debug\WindowsPhoneNotificationService.pdb
