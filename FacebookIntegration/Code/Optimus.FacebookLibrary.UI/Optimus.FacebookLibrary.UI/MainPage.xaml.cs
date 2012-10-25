@@ -17,5 +17,6 @@ namespace Optimus.FacebookLibrary.UI
             // Navigate to LoginPage
             NavigationService.Navigate(new Uri("/LoginPage.xaml", UriKind.Relative));
         }
+        
     }
 }

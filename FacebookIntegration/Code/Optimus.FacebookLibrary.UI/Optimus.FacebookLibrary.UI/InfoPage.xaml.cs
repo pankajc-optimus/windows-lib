@@ -124,8 +124,9 @@ namespace Optimus.FacebookLibrary.UI
 
         private void btnlogout_Click(object sender, RoutedEventArgs e)
         {
-            var url = string.Format("/FacebokLogoutPage.xaml?access_token={0}", _accessToken);
-
+            var url = string.Format("/LogoutPage.xaml?access_token={0}", _accessToken);
+            _accessToken = null;
+            _userId = null;
             NavigationService.Navigate(new Uri(url, UriKind.Relative));
         }
 
