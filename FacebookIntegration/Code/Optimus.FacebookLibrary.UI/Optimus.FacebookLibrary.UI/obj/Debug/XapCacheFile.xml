@@ -1,9 +1,9 @@
-﻿<xapCache source="E:\Projects\FaceBookLibrary\SourceCode\Optimus.FacebookLibrary.UI\Optimus.FacebookLibrary.UI\Bin\Debug\Optimus.FacebookLibrary.UI.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="10/23/2012 6:20:16 PM">
-  <file source="E:\Projects\FaceBookLibrary\SourceCode\Optimus.FacebookLibrary.UI\Optimus.FacebookLibrary.UI\Bin\Debug\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="10/19/2012 12:11:50 PM" />
-  <file source="E:\Projects\FaceBookLibrary\SourceCode\Optimus.FacebookLibrary.UI\Optimus.FacebookLibrary.UI\Background.png" archivePath="Background.png" lastWriteTime="10/17/2012 2:54:49 PM" />
-  <file source="E:\Projects\FaceBookLibrary\SourceCode\Optimus.FacebookLibrary.UI\Optimus.FacebookLibrary.UI\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="10/17/2012 2:54:49 PM" />
-  <file source="E:\Projects\FaceBookLibrary\SourceCode\Optimus.FacebookLibrary.UI\Optimus.FacebookLibrary.UI\obj\Debug\Optimus.FacebookLibrary.UI.dll" archivePath="Optimus.FacebookLibrary.UI.dll" lastWriteTime="10/23/2012 6:20:16 PM" />
-  <file source="E:\Projects\FaceBookLibrary\SourceCode\Optimus.FacebookLibrary.UI\Optimus.FacebookLibrary.UI\Bin\Debug\Facebook.dll" archivePath="Facebook.dll" lastWriteTime="10/17/2012 4:56:50 PM" />
-  <file source="E:\Projects\FaceBookLibrary\SourceCode\Optimus.FacebookLibrary.UI\Optimus.FacebookLibrary.UI\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="10/17/2012 2:54:49 PM" />
-  <file source="E:\Projects\FaceBookLibrary\SourceCode\Optimus.FacebookLibrary.UI\Optimus.FacebookLibrary.UI\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="10/23/2012 5:44:18 PM" />
+﻿<xapCache source="E:\WindowsGit\windows-lib\FacebookIntegration\Code\Optimus.FacebookLibrary.UI\Optimus.FacebookLibrary.UI\Bin\Debug\Optimus.FacebookLibrary.UI.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="10/25/2012 11:25:54 AM">
+  <file source="E:\WindowsGit\windows-lib\FacebookIntegration\Code\Optimus.FacebookLibrary.UI\Optimus.FacebookLibrary.UI\Bin\Debug\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="10/19/2012 12:11:50 PM" />
+  <file source="E:\WindowsGit\windows-lib\FacebookIntegration\Code\Optimus.FacebookLibrary.UI\Optimus.FacebookLibrary.UI\Background.png" archivePath="Background.png" lastWriteTime="10/17/2012 2:54:49 PM" />
+  <file source="E:\WindowsGit\windows-lib\FacebookIntegration\Code\Optimus.FacebookLibrary.UI\Optimus.FacebookLibrary.UI\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="10/17/2012 2:54:49 PM" />
+  <file source="E:\WindowsGit\windows-lib\FacebookIntegration\Code\Optimus.FacebookLibrary.UI\Optimus.FacebookLibrary.UI\obj\Debug\Optimus.FacebookLibrary.UI.dll" archivePath="Optimus.FacebookLibrary.UI.dll" lastWriteTime="10/25/2012 11:25:53 AM" />
+  <file source="E:\WindowsGit\windows-lib\FacebookIntegration\Code\Optimus.FacebookLibrary.UI\Optimus.FacebookLibrary.UI\Bin\Debug\Facebook.dll" archivePath="Facebook.dll" lastWriteTime="10/17/2012 4:56:50 PM" />
+  <file source="E:\WindowsGit\windows-lib\FacebookIntegration\Code\Optimus.FacebookLibrary.UI\Optimus.FacebookLibrary.UI\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="10/17/2012 2:54:49 PM" />
+  <file source="E:\WindowsGit\windows-lib\FacebookIntegration\Code\Optimus.FacebookLibrary.UI\Optimus.FacebookLibrary.UI\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="10/23/2012 5:44:18 PM" />
 </xapCache>

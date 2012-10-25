@@ -57,6 +57,7 @@
                 <TextBlock Height="194" Width="410" Name="txtAnswer" Text="" TextWrapping="Wrap" HorizontalAlignment="Left" />
             </ScrollViewer>
             <Button Content="Check in" Height="72" Margin="13,330,236,0" Name="btnCheckIn" VerticalAlignment="Top" Grid.Row="1" Click="btnCheckIn_Click" />
+            <Button Content="Log Out" Height="72" Margin="243,330,6,0" Name="btnlogout" VerticalAlignment="Top" Grid.Row="1" Click="btnlogout_Click" />
         </Grid>
     </Grid>
  

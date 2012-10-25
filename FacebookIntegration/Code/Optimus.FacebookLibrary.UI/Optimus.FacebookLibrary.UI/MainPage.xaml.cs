@@ -14,6 +14,7 @@ namespace Optimus.FacebookLibrary.UI
 
         private void btnFbLogin_Click(object sender, RoutedEventArgs e)
         {
+            // Navigate to LoginPage
             NavigationService.Navigate(new Uri("/LoginPage.xaml", UriKind.Relative));
         }
     }
