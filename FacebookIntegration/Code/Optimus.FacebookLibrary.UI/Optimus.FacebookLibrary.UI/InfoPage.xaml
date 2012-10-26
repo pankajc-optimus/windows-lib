@@ -1,0 +1,76 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Optimus.FacebookLibrary.UI.InfoPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d" d:DesignHeight="768" d:DesignWidth="480"
+    shell:SystemTray.IsVisible="True" Loaded="PhoneApplicationPage_Loaded">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="ApplicationTitle" Text="Facebook Library" Style="{StaticResource PhoneTextNormalStyle}"/>
+        </StackPanel>       
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="39*" />
+                <RowDefinition Height="657*" />
+            </Grid.RowDefinitions>
+            
+                        <!--<StackPanel Margin="8,-29,0,29" Grid.RowSpan="2">
+                <TextBlock x:Name="ProfileName"></TextBlock>
+                <TextBlock x:Name="FirstName"></TextBlock>
+                <TextBlock x:Name="LastName"></TextBlock>
+                <TextBlock x:Name="CheckInLocation"></TextBlock>
+                <Image x:Name="picProfile" Width="100" HorizontalAlignment="Left" Margin="0,6,0,579" Grid.RowSpan="2" />
+            </StackPanel>-->
+            <Button Content="AccessToken" Height="72" Margin="13,95,0,0" Name="btnAccessToken" VerticalAlignment="Top" HorizontalAlignment="Left" Width="207" Click="btnAccessToken_Click" Grid.Row="1" />
+            <Button Content="ExpireTime" Height="72" Margin="243,95,0,0" Name="btnExpireTime" VerticalAlignment="Top" Click="btnExpireTime_Click" Grid.Row="1" HorizontalAlignment="Left" Width="207" />
+            <Button Content="Wall Post" Height="72" Margin="13,144,0,0" Name="btnWallPost" VerticalAlignment="Top" Click="btnWallPost_Click" HorizontalAlignment="Left" Width="207" Grid.Row="1" />
+            <Button Content="Delete Post" Height="72" Margin="243,144,6,0" Name="btnDeletePost" VerticalAlignment="Top" Click="btnDeletePost_Click" Grid.Row="1" />
+            <Button Content="Get Friends" Height="72" Margin="13,235,236,0" Name="btnFriendList" VerticalAlignment="Top" Click="btnFriendList_Click" Grid.Row="1" />
+            <Button Content="Search" Height="72" Margin="243,235,6,0" Name="btnSearch" VerticalAlignment="Top" Click="btnSearch_Click" Grid.Row="1" />
+            <Button Content="Graph API" Height="72" Margin="13,281,236,0" Name="btnGraphApi" VerticalAlignment="Top" Click="btnGraphApi_Click" Grid.Row="1" />
+            <Button Content="FQL" Height="72" Margin="243,281,6,0" Name="btnFql" VerticalAlignment="Top" Click="btnFql_Click" Grid.Row="1" />            
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="161,25,0,0" Name="ProfileName" Text="ProfileName" VerticalAlignment="Top" Grid.RowSpan="2" Width="208" />
+            <TextBlock Grid.Row="1" Height="30" HorizontalAlignment="Left" Margin="161,22,0,0" Name="FirstName" Text="TextBlock" VerticalAlignment="Top" Width="220" />
+            <Image Height="96" HorizontalAlignment="Left" Name="picProfile" Stretch="Fill" VerticalAlignment="Top" Width="132" Grid.RowSpan="2" Margin="0,9,0,0" />
+            <Button Content="Choose Photo" Height="72" Margin="13,188,0,0" Name="btnChoosePhoto" VerticalAlignment="Top" Grid.Row="1" HorizontalAlignment="Left" Width="207" Click="btnChoosePhoto_Click" />
+            <Button Content="Post Photo" Height="72" Margin="243,188,6,0" Name="btnPostPhoto" VerticalAlignment="Top" Grid.Row="1" Click="btnPostPhoto_Click" />
+            <TextBox Grid.Row="1" Height="72" HorizontalAlignment="Left" Margin="12,394,0,0" Name="txtInput" Text="" VerticalAlignment="Top" Width="438" HorizontalScrollBarVisibility="Visible" />
+            <ScrollViewer Grid.Row="1" Height="194" HorizontalAlignment="Left" Margin="25,457,0,0" Name="scrollViewer1" VerticalAlignment="Top" Width="410" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+                <TextBlock Height="194" Width="410" Name="txtAnswer" Text="" TextWrapping="Wrap" HorizontalAlignment="Left" />
+            </ScrollViewer>
+            <Button Content="Check in" Height="72" Margin="13,330,236,0" Name="btnCheckIn" VerticalAlignment="Top" Grid.Row="1" Click="btnCheckIn_Click" />
+            <Button Content="Log Out" Height="72" Margin="243,330,6,0" Name="btnlogout" VerticalAlignment="Top" Grid.Row="1" Click="btnlogout_Click" />
+        </Grid>
+    </Grid>
+ 
+    <!--Sample code showing usage of ApplicationBar-->
+    <!--<phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="Button 1"/>
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button2.png" Text="Button 2"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="MenuItem 1"/>
+                <shell:ApplicationBarMenuItem Text="MenuItem 2"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>-->
+
+</phone:PhoneApplicationPage>
