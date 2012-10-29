@@ -200,15 +200,20 @@ namespace CustomMapLibrary
         //Updates default Position.
         void watcher_PositionChanged(object sender, GeoPositionChangedEventArgs<GeoCoordinate> e)
         {
-            defaultLocation.Latitude = e.Position.Location.Latitude;
-            defaultLocation.Longitude = e.Position.Location.Longitude;
-
-            //img.Stretch = Stretch.None;
-            homeImage.MaxHeight = 50;
-            homeImage.MaxWidth = 50;
-            homeImage.Opacity = 0.8;
-            imageLayer.Children.Remove(homeImage);
-            imageLayer.AddChild(homeImage, defaultLocation, PositionOrigin.Center);
+            try
+            {
+                defaultLocation.Latitude = e.Position.Location.Latitude;
+                defaultLocation.Longitude = e.Position.Location.Longitude;
+                homeImage.MaxHeight = 50;
+                homeImage.MaxWidth = 50;
+                homeImage.Opacity = 0.8;
+                imageLayer.Children.Remove(homeImage);
+                imageLayer.AddChild(homeImage, defaultLocation, PositionOrigin.Center);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message + "\n" + ex.Data + "\n" + ex.StackTrace);
+            }
 
         }
 

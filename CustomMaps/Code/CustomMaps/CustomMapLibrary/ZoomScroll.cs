@@ -46,13 +46,20 @@ namespace CustomMapLibrary
         /// <param name="map">Map Class Object</param>
         public ZoomScroll(Map map)
         {
-            this.map = map;
-            map.MapPan += new EventHandler<MapDragEventArgs>(map_MapPan);
-            map.MapZoom += new EventHandler<MapZoomEventArgs>(map_MapZoom);
-            map.MapResolved += new EventHandler(map_MapResolved);
-            timer = new DispatcherTimer();
-            timer.Interval = TimeSpan.FromSeconds(1);
-            timer.Tick += new EventHandler(timer_Tick);
+            try
+            {
+                this.map = map;
+                map.MapPan += new EventHandler<MapDragEventArgs>(map_MapPan);
+                map.MapZoom += new EventHandler<MapZoomEventArgs>(map_MapZoom);
+                map.MapResolved += new EventHandler(map_MapResolved);
+                timer = new DispatcherTimer();
+                timer.Interval = TimeSpan.FromSeconds(1);
+                timer.Tick += new EventHandler(timer_Tick);
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Error:"+e.Message+"\n"+e.Data+"\n"+e.StackTrace);
+            }
         }
 
         
