@@ -7,3 +7,12 @@ C:\Users\Anubhav\documents\visual studio 2010\projects\CustomMaps\CustomMapLibra
 C:\Users\Anubhav\documents\visual studio 2010\projects\CustomMaps\CustomMapLibrary\obj\Debug\CustomMapLibrary.g.resources
 C:\Users\Anubhav\documents\visual studio 2010\projects\CustomMaps\CustomMapLibrary\obj\Debug\CustomMapLibrary.dll
 C:\Users\Anubhav\documents\visual studio 2010\projects\CustomMaps\CustomMapLibrary\obj\Debug\CustomMapLibrary.pdb
+C:\Users\Anubhav\Desktop\windows-lib\CustomMaps\Code\CustomMaps\CustomMapLibrary\Bin\Debug\CustomMapLibrary.dll
+C:\Users\Anubhav\Desktop\windows-lib\CustomMaps\Code\CustomMaps\CustomMapLibrary\Bin\Debug\CustomMapLibrary.pdb
+C:\Users\Anubhav\Desktop\windows-lib\CustomMaps\Code\CustomMaps\CustomMapLibrary\Bin\Debug\Microsoft.Phone.Controls.Maps.dll
+C:\Users\Anubhav\Desktop\windows-lib\CustomMaps\Code\CustomMaps\CustomMapLibrary\Bin\Debug\Microsoft.Phone.Controls.Maps.xml
+C:\Users\Anubhav\Desktop\windows-lib\CustomMaps\Code\CustomMaps\CustomMapLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Anubhav\Desktop\windows-lib\CustomMaps\Code\CustomMaps\CustomMapLibrary\obj\Debug\PopupWindow.g.i.cs
+C:\Users\Anubhav\Desktop\windows-lib\CustomMaps\Code\CustomMaps\CustomMapLibrary\obj\Debug\CustomMapLibrary.g.resources
+C:\Users\Anubhav\Desktop\windows-lib\CustomMaps\Code\CustomMaps\CustomMapLibrary\obj\Debug\CustomMapLibrary.dll
+C:\Users\Anubhav\Desktop\windows-lib\CustomMaps\Code\CustomMaps\CustomMapLibrary\obj\Debug\CustomMapLibrary.pdb

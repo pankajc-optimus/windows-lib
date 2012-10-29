@@ -25,20 +25,15 @@ namespace CustomMaps
         public MainPage()
         {
             InitializeComponent();
-           
             ZoomScroll obj = new ZoomScroll(map);
             obj.zoomScrollChanged += new ZoomScroll.ZoomScrollChanged(obj_zoomScrollChanged);
-            
-            //custom = new CustomMapControls(map);
-            custom = new CustomMapControls(map, new BitmapImage(new Uri("Images/homea.png", UriKind.Relative)), new BitmapImage(new Uri("Images/pin.png", UriKind.Relative)));
+            custom = new CustomMapControls(map, new BitmapImage(new Uri("Images/home.png", UriKind.Relative)), new BitmapImage(new Uri("Images/pin.png", UriKind.Relative)));
             custom.popupClicked += new CustomMapControls.Popup_Button_Clicked(custom_popupClicked);
-            
-           
         }
 
         void custom_popupClicked(object sender, RoutedEventArgs args)
         {
-            NavigationService.Navigate(new Uri("/Views/NavigateTo.xaml",UriKind.Relative));
+            NavigationService.Navigate(new Uri("/Views/NavigateTo.xaml", UriKind.Relative));
         }
 
 
@@ -56,11 +51,9 @@ namespace CustomMaps
 
         private void btnDefault_Click(object sender, RoutedEventArgs e)
         {
+            //setting defaultLocation's Zoom Level.
             custom.ZoomLevel = 5;
             custom.SetViewDefaultLocation();
-            
         }
-
-       
     }
 }

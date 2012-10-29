@@ -12,6 +12,9 @@ using System.Windows.Shapes;
 
 namespace CustomMapLibrary
 {
+    /// <summary>
+    /// A Popup with a button is displayed when the customLocation's pin is tapped.
+    /// </summary>
     public partial class PopupWindow : UserControl
     {
         public PopupWindow()

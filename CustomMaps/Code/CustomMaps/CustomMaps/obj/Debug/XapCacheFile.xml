@@ -1,10 +1,10 @@
-﻿<xapCache source="C:\Users\Anubhav\documents\visual studio 2010\projects\CustomMaps\CustomMaps\Bin\Debug\CustomMaps.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="10/26/2012 7:07:08 PM">
-  <file source="C:\Users\Anubhav\documents\visual studio 2010\projects\CustomMaps\CustomMaps\Bin\Debug\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="10/23/2012 5:32:32 PM" />
-  <file source="C:\Users\Anubhav\documents\visual studio 2010\projects\CustomMaps\CustomMaps\Background.png" archivePath="Background.png" lastWriteTime="10/23/2012 4:56:43 PM" />
-  <file source="C:\Users\Anubhav\documents\visual studio 2010\projects\CustomMaps\CustomMaps\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="10/23/2012 4:56:43 PM" />
-  <file source="C:\Users\Anubhav\documents\visual studio 2010\projects\CustomMaps\CustomMaps\obj\Debug\CustomMaps.dll" archivePath="CustomMaps.dll" lastWriteTime="10/26/2012 7:07:07 PM" />
-  <file source="C:\Users\Anubhav\documents\visual studio 2010\projects\CustomMaps\CustomMapLibrary\Bin\Debug\CustomMapLibrary.dll" archivePath="CustomMapLibrary.dll" lastWriteTime="10/26/2012 7:07:07 PM" />
+﻿<xapCache source="C:\Users\Anubhav\Desktop\windows-lib\CustomMaps\Code\CustomMaps\CustomMaps\Bin\Debug\CustomMaps.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="10/29/2012 10:19:07 AM">
+  <file source="C:\Users\Anubhav\Desktop\windows-lib\CustomMaps\Code\CustomMaps\CustomMaps\Bin\Debug\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="10/23/2012 5:32:32 PM" />
+  <file source="C:\Users\Anubhav\Desktop\windows-lib\CustomMaps\Code\CustomMaps\CustomMaps\Background.png" archivePath="Background.png" lastWriteTime="10/23/2012 4:56:43 PM" />
+  <file source="C:\Users\Anubhav\Desktop\windows-lib\CustomMaps\Code\CustomMaps\CustomMaps\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="10/23/2012 4:56:43 PM" />
+  <file source="C:\Users\Anubhav\Desktop\windows-lib\CustomMaps\Code\CustomMaps\CustomMaps\obj\Debug\CustomMaps.dll" archivePath="CustomMaps.dll" lastWriteTime="10/29/2012 10:19:06 AM" />
+  <file source="C:\Users\Anubhav\Desktop\windows-lib\CustomMaps\Code\CustomMaps\CustomMapLibrary\Bin\Debug\CustomMapLibrary.dll" archivePath="CustomMapLibrary.dll" lastWriteTime="10/29/2012 10:19:05 AM" />
   <file source="C:\Program Files\Microsoft SDKs\Windows Phone\v7.1\Libraries\Silverlight\Microsoft.Phone.Controls.Maps.dll" archivePath="Microsoft.Phone.Controls.Maps.dll" lastWriteTime="9/15/2011 3:36:26 PM" />
-  <file source="C:\Users\Anubhav\documents\visual studio 2010\projects\CustomMaps\CustomMaps\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="10/23/2012 4:56:43 PM" />
-  <file source="C:\Users\Anubhav\documents\visual studio 2010\projects\CustomMaps\CustomMaps\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="10/26/2012 4:15:31 PM" />
+  <file source="C:\Users\Anubhav\Desktop\windows-lib\CustomMaps\Code\CustomMaps\CustomMaps\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="10/23/2012 4:56:43 PM" />
+  <file source="C:\Users\Anubhav\Desktop\windows-lib\CustomMaps\Code\CustomMaps\CustomMaps\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="10/26/2012 4:15:31 PM" />
 </xapCache>

@@ -98,7 +98,7 @@
     <Content Include="Background.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Resource Include="Images\homea.png" />
+    <Resource Include="Images\home.png" />
     <Resource Include="Images\pin.png" />
     <Content Include="SplashScreenImage.jpg" />
   </ItemGroup>
