@@ -10,11 +10,6 @@ using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using System.Device.Location;
 using Microsoft.Phone.Controls.Maps;
-//using Microsoft.Phone.Controls.Maps.AutomationPeers;
-//using Microsoft.Phone.Controls.Maps.Core;
-//using Microsoft.Phone.Controls.Maps.Design;
-//using Microsoft.Phone.Controls.Maps.Overlays;
-//using Microsoft.Phone.Controls.Maps.Platform;
 using System.Windows.Threading;
 
 
@@ -32,12 +27,12 @@ namespace CustomMapLibrary
         /// Occurs when map is zoomed or scrolled.
         /// </summary>
         public event ZoomScrollChanged zoomScrollChanged;
-        ZoomScrollArgs args = new ZoomScrollArgs();
-        private DispatcherTimer timer;
-        int secondsCount = 0;
-        Map map;
+        private ZoomScrollArgs _args = new ZoomScrollArgs();
+        private DispatcherTimer _timer;
+        private int _secondsCount = 0;
+        private Map _map;
 
-        bool ChangedByEvents = false;
+        private bool _changedByEvents = false;
 
         private double _oldZoomLevel=-1, _newZoomLevel;
         /// <summary>
@@ -48,13 +43,13 @@ namespace CustomMapLibrary
         {
             try
             {
-                this.map = map;
-                map.MapPan += new EventHandler<MapDragEventArgs>(map_MapPan);
-                map.MapZoom += new EventHandler<MapZoomEventArgs>(map_MapZoom);
-                map.MapResolved += new EventHandler(map_MapResolved);
-                timer = new DispatcherTimer();
-                timer.Interval = TimeSpan.FromSeconds(1);
-                timer.Tick += new EventHandler(timer_Tick);
+                this._map = map;
+                _map.MapPan += new EventHandler<MapDragEventArgs>(map_MapPan);
+                _map.MapZoom += new EventHandler<MapZoomEventArgs>(map_MapZoom);
+                _map.MapResolved += new EventHandler(map_MapResolved);
+                _timer = new DispatcherTimer();
+                _timer.Interval = TimeSpan.FromSeconds(1);
+                _timer.Tick += new EventHandler(timer_Tick);
             }
             catch (Exception e)
             {
@@ -67,20 +62,20 @@ namespace CustomMapLibrary
         //Event firing
         void timer_Tick(object sender, EventArgs e)
         {
-            secondsCount++;
-            if (secondsCount >= 3)
+            _secondsCount++;
+            if (_secondsCount >= 3)
             {
-                secondsCount = 0;
-                timer.Stop();
-                if (args.ZoomOrScroll == ZoomScrollType.Scroll)
+                _secondsCount = 0;
+                _timer.Stop();
+                if (_args.ZoomOrScroll == ZoomScrollType.Scroll)
                 {
                     if(zoomScrollChanged!=null)
-                    zoomScrollChanged(this, args);
+                    zoomScrollChanged(this, _args);
                 }
                 else
                 {
                     if (zoomScrollChanged != null)
-                    zoomScrollChanged(this, args);
+                    zoomScrollChanged(this, _args);
                 }
             
             }
@@ -90,43 +85,43 @@ namespace CustomMapLibrary
         
         void map_MapZoom(object sender, MapZoomEventArgs e)
         {
-            timer.Stop();
-            args.ZoomOrScroll = ZoomScrollType.Zoom;
-            args.ZoomLevel = map.ZoomLevel;
-            args.Center = map.ViewportPointToLocation(e.ViewportPoint);
-            ChangedByEvents = true;
+            _timer.Stop();
+            _args.ZoomOrScroll = ZoomScrollType.Zoom;
+            _args.ZoomLevel = _map.ZoomLevel;
+            _args.Center = _map.ViewportPointToLocation(e.ViewportPoint);
+            _changedByEvents = true;
         }
 
         
         void map_MapPan(object sender, MapDragEventArgs e)
         {
-            timer.Stop();
-            args.ZoomOrScroll = ZoomScrollType.Scroll;
-            args.Center = map.ViewportPointToLocation(e.ViewportPoint);
-            ChangedByEvents = true;
+            _timer.Stop();
+            _args.ZoomOrScroll = ZoomScrollType.Scroll;
+            _args.Center = _map.ViewportPointToLocation(e.ViewportPoint);
+            _changedByEvents = true;
         }
 
         void map_MapResolved(object sender, EventArgs e)
         {
-            timer.Stop();
-            if (!ChangedByEvents)
+            _timer.Stop();
+            if (!_changedByEvents)
             {
-                _newZoomLevel = map.ZoomLevel;
+                _newZoomLevel = _map.ZoomLevel;
                 if (_oldZoomLevel != _newZoomLevel)
                 {
-                    args.ZoomLevel = _newZoomLevel;
-                    args.ZoomOrScroll = ZoomScrollType.Zoom;
-                    args.Center = map.Center;
+                    _args.ZoomLevel = _newZoomLevel;
+                    _args.ZoomOrScroll = ZoomScrollType.Zoom;
+                    _args.Center = _map.Center;
                 }
                 else
                 {
-                    args.ZoomOrScroll = ZoomScrollType.Scroll;
-                    args.Center = map.Center;
+                    _args.ZoomOrScroll = ZoomScrollType.Scroll;
+                    _args.Center = _map.Center;
                 }
             }
-            ChangedByEvents = false;
+            _changedByEvents = false;
             _oldZoomLevel = _newZoomLevel;
-            timer.Start();
+            _timer.Start();
 
 
         }

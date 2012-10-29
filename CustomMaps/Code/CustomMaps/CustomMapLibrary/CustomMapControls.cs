@@ -27,20 +27,20 @@ namespace CustomMapLibrary
     /// </summary>
     public class CustomMapControls
     {
-        private GeoCoordinate defaultLocation = new GeoCoordinate();
-        private GeoCoordinate customLocation = new GeoCoordinate();
-        private GeoCoordinateWatcher watcher;
-        private Map map;
+        private GeoCoordinate _defaultLocation = new GeoCoordinate();
+        private GeoCoordinate _customLocation = new GeoCoordinate();
+        private GeoCoordinateWatcher _watcher;
+        private Map _map;
 
         /// <summary>
         /// Represents a map layer which positions it's child(UIElement) using geographic coordinates.
         /// </summary>
-        public MapLayer imageLayer = new MapLayer();
+        public MapLayer ImageLayer = new MapLayer();
 
-        private Image homeImage = new Image();
-        private Image pinImage = new Image();
+        private Image _homeImage = new Image();
+        private Image _pinImage = new Image();
 
-        private PopupWindow popupWindow = new PopupWindow();
+        private PopupWindow _popupWindow = new PopupWindow();
         private double _click_X, _click_Y;
 
         public delegate void Popup_Button_Clicked(object sender, RoutedEventArgs args);
@@ -67,22 +67,22 @@ namespace CustomMapLibrary
         {
             try
             {
-                this.map = map;
-                map.Children.Add(imageLayer);
-                homeImage.Source = new BitmapImage(new Uri("/CustomMapLibrary;component/Resources/home.png", UriKind.Relative));
-                pinImage.Source = new BitmapImage(new Uri("/CustomMapLibrary;component/Resources/pin.png", UriKind.Relative));
+                this._map = map;
+                _map.Children.Add(ImageLayer);
+                _homeImage.Source = new BitmapImage(new Uri("/CustomMapLibrary;component/Resources/home.png", UriKind.Relative));
+                _pinImage.Source = new BitmapImage(new Uri("/CustomMapLibrary;component/Resources/pin.png", UriKind.Relative));
 
-                pinImage.Tap += new EventHandler<GestureEventArgs>(pinImage_Tap);
-                map.Tap += new EventHandler<GestureEventArgs>(map_Tap);
-                map.Hold += new EventHandler<GestureEventArgs>(map_Hold);
-                watcher = new GeoCoordinateWatcher(GeoPositionAccuracy.High);
-                watcher.MovementThreshold = 20;
-                watcher.PositionChanged += new EventHandler<GeoPositionChangedEventArgs<GeoCoordinate>>(watcher_PositionChanged);
-                watcher.StatusChanged += new EventHandler<GeoPositionStatusChangedEventArgs>(watcher_StatusChanged);
-                watcher.Start(true);
+                _pinImage.Tap += new EventHandler<GestureEventArgs>(pinImage_Tap);
+                _map.Tap += new EventHandler<GestureEventArgs>(map_Tap);
+                _map.Hold += new EventHandler<GestureEventArgs>(map_Hold);
+                _watcher = new GeoCoordinateWatcher(GeoPositionAccuracy.High);
+                _watcher.MovementThreshold = 20;
+                _watcher.PositionChanged += new EventHandler<GeoPositionChangedEventArgs<GeoCoordinate>>(watcher_PositionChanged);
+                _watcher.StatusChanged += new EventHandler<GeoPositionStatusChangedEventArgs>(watcher_StatusChanged);
+                _watcher.Start(true);
 
                 //Forward Button Press Event from Popup Window 
-                popupWindow.btnDetails.Click += new RoutedEventHandler(btnDetails_Click);
+                _popupWindow.btnDetails.Click += new RoutedEventHandler(btnDetails_Click);
             }
             catch (Exception e)
             {
@@ -100,22 +100,22 @@ namespace CustomMapLibrary
         {
             try
             {
-                this.map = map;
-                map.Children.Add(imageLayer);
-                homeImage.Source = defaultLocationImage;
-                pinImage.Source = customLocationImage;
+                this._map = map;
+                _map.Children.Add(ImageLayer);
+                _homeImage.Source = defaultLocationImage;
+                _pinImage.Source = customLocationImage;
 
-                pinImage.Tap += new EventHandler<GestureEventArgs>(pinImage_Tap);
-                map.Tap += new EventHandler<GestureEventArgs>(map_Tap);
-                map.Hold += new EventHandler<GestureEventArgs>(map_Hold);
-                watcher = new GeoCoordinateWatcher(GeoPositionAccuracy.High);
-                watcher.MovementThreshold = 20;
-                watcher.PositionChanged += new EventHandler<GeoPositionChangedEventArgs<GeoCoordinate>>(watcher_PositionChanged);
-                watcher.StatusChanged += new EventHandler<GeoPositionStatusChangedEventArgs>(watcher_StatusChanged);
-                watcher.Start(true);
+                _pinImage.Tap += new EventHandler<GestureEventArgs>(pinImage_Tap);
+                _map.Tap += new EventHandler<GestureEventArgs>(map_Tap);
+                _map.Hold += new EventHandler<GestureEventArgs>(map_Hold);
+                _watcher = new GeoCoordinateWatcher(GeoPositionAccuracy.High);
+                _watcher.MovementThreshold = 20;
+                _watcher.PositionChanged += new EventHandler<GeoPositionChangedEventArgs<GeoCoordinate>>(watcher_PositionChanged);
+                _watcher.StatusChanged += new EventHandler<GeoPositionStatusChangedEventArgs>(watcher_StatusChanged);
+                _watcher.Start(true);
 
                 //Forward Button Press Event from Popup Window 
-                popupWindow.btnDetails.Click += new RoutedEventHandler(btnDetails_Click);
+                _popupWindow.btnDetails.Click += new RoutedEventHandler(btnDetails_Click);
             }
             catch (Exception e)
             {
@@ -137,9 +137,9 @@ namespace CustomMapLibrary
         {
             //Discards any tap made on the customLocation's pin.
             //(Tap Event sequence -> (1)pinImage -> (2)map)
-            if (!((_click_X == e.GetPosition(map).X) && (_click_Y == e.GetPosition(map).Y)))
+            if (!((_click_X == e.GetPosition(_map).X) && (_click_Y == e.GetPosition(_map).Y)))
             {
-                imageLayer.Children.Remove(popupWindow);
+                ImageLayer.Children.Remove(_popupWindow);
             }
 
         }
@@ -151,11 +151,11 @@ namespace CustomMapLibrary
             try
             {
                 System.Diagnostics.Debug.WriteLine("clicked");
-                _click_X = e.GetPosition(map).X;
-                _click_Y = e.GetPosition(map).Y;
+                _click_X = e.GetPosition(_map).X;
+                _click_Y = e.GetPosition(_map).Y;
 
-                imageLayer.Children.Remove(popupWindow);
-                imageLayer.AddChild(popupWindow, customLocation, PositionOrigin.BottomRight);
+                ImageLayer.Children.Remove(_popupWindow);
+                ImageLayer.AddChild(_popupWindow, _customLocation, PositionOrigin.BottomRight);
             }
             catch (Exception ex)
             {
@@ -169,12 +169,12 @@ namespace CustomMapLibrary
         {
             try
             {
-                pinImage.MaxHeight = 50;
-                pinImage.MaxWidth = 50;
-                pinImage.Opacity = 0.8;
-                imageLayer.Children.Remove(pinImage);
-                customLocation = map.ViewportPointToLocation(e.GetPosition(map));
-                imageLayer.AddChild(pinImage, customLocation, PositionOrigin.BottomCenter);
+                _pinImage.MaxHeight = 50;
+                _pinImage.MaxWidth = 50;
+                _pinImage.Opacity = 0.8;
+                ImageLayer.Children.Remove(_pinImage);
+                _customLocation = _map.ViewportPointToLocation(e.GetPosition(_map));
+                ImageLayer.AddChild(_pinImage, _customLocation, PositionOrigin.BottomCenter);
             }
             catch (Exception ex)
             {
@@ -202,13 +202,13 @@ namespace CustomMapLibrary
         {
             try
             {
-                defaultLocation.Latitude = e.Position.Location.Latitude;
-                defaultLocation.Longitude = e.Position.Location.Longitude;
-                homeImage.MaxHeight = 50;
-                homeImage.MaxWidth = 50;
-                homeImage.Opacity = 0.8;
-                imageLayer.Children.Remove(homeImage);
-                imageLayer.AddChild(homeImage, defaultLocation, PositionOrigin.Center);
+                _defaultLocation.Latitude = e.Position.Location.Latitude;
+                _defaultLocation.Longitude = e.Position.Location.Longitude;
+                _homeImage.MaxHeight = 50;
+                _homeImage.MaxWidth = 50;
+                _homeImage.Opacity = 0.8;
+                ImageLayer.Children.Remove(_homeImage);
+                ImageLayer.AddChild(_homeImage, _defaultLocation, PositionOrigin.Center);
             }
             catch (Exception ex)
             {
@@ -223,7 +223,7 @@ namespace CustomMapLibrary
         /// </summary>
         public void SetViewDefaultLocation()
         {
-            map.SetView(defaultLocation, ZoomLevel);
+            _map.SetView(_defaultLocation, ZoomLevel);
         }
 
 
@@ -233,7 +233,7 @@ namespace CustomMapLibrary
         /// <param name="zoomLevel">Zoom Level </param>
         public void SetViewDefaultLocation(double zoomLevel)
         {
-            map.SetView(defaultLocation, zoomLevel);
+            _map.SetView(_defaultLocation, zoomLevel);
         }
 
 
