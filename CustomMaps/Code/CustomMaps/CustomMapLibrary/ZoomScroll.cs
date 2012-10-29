@@ -69,13 +69,17 @@ namespace CustomMapLibrary
                 _timer.Stop();
                 if (_args.ZoomOrScroll == ZoomScrollType.Scroll)
                 {
-                    if(zoomScrollChanged!=null)
-                    zoomScrollChanged(this, _args);
+                    if (zoomScrollChanged != null)
+                    {
+                        zoomScrollChanged(this, _args);
+                    }
                 }
                 else
                 {
                     if (zoomScrollChanged != null)
-                    zoomScrollChanged(this, _args);
+                    {
+                        zoomScrollChanged(this, _args);
+                    }
                 }
             
             }
