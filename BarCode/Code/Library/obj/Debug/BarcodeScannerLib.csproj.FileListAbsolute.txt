@@ -1,0 +1,20 @@
+C:\Users\tanya\Documents\Visual Studio 2010\Projects\WinMoApp\BarcodeScanner\BarcodeScannerLib\Bin\Debug\BarcodeScannerLib.dll
+C:\Users\tanya\Documents\Visual Studio 2010\Projects\WinMoApp\BarcodeScanner\BarcodeScannerLib\Bin\Debug\BarcodeScannerLib.pdb
+C:\Users\tanya\Documents\Visual Studio 2010\Projects\WinMoApp\BarcodeScanner\BarcodeScannerLib\Bin\Debug\zxingwp7.dll
+C:\Users\tanya\Documents\Visual Studio 2010\Projects\WinMoApp\BarcodeScanner\BarcodeScannerLib\Bin\Debug\WriteableBitmapExWinPhone.dll
+C:\Users\tanya\Documents\Visual Studio 2010\Projects\WinMoApp\BarcodeScanner\BarcodeScannerLib\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\tanya\Documents\Visual Studio 2010\Projects\WinMoApp\BarcodeScanner\BarcodeScannerLib\obj\Debug\BarcodeScannerLib.dll
+C:\Users\tanya\Documents\Visual Studio 2010\Projects\WinMoApp\BarcodeScanner\BarcodeScannerLib\obj\Debug\BarcodeScannerLib.pdb
+G:\BarcodeScanner\BarcodeScannerLib\Bin\Debug\BarcodeScannerLib.dll
+G:\BarcodeScanner\BarcodeScannerLib\Bin\Debug\BarcodeScannerLib.pdb
+G:\BarcodeScanner\BarcodeScannerLib\Bin\Debug\zxingwp7.dll
+G:\BarcodeScanner\BarcodeScannerLib\Bin\Debug\WriteableBitmapExWinPhone.dll
+G:\BarcodeScanner\BarcodeScannerLib\obj\Debug\ResolveAssemblyReference.cache
+G:\BarcodeScanner\BarcodeScannerLib\obj\Debug\BarcodeScannerLib.dll
+G:\BarcodeScanner\BarcodeScannerLib\obj\Debug\BarcodeScannerLib.pdb
+E:\Office Backup\Windows Phone 7 Lib\BarcodeScannerLib\BarcodeScanner\BarcodeScannerLib\Bin\Debug\BarcodeScannerLib.dll
+E:\Office Backup\Windows Phone 7 Lib\BarcodeScannerLib\BarcodeScanner\BarcodeScannerLib\Bin\Debug\BarcodeScannerLib.pdb
+E:\Office Backup\Windows Phone 7 Lib\BarcodeScannerLib\BarcodeScanner\BarcodeScannerLib\Bin\Debug\WriteableBitmapExWinPhone.dll
+E:\Office Backup\Windows Phone 7 Lib\BarcodeScannerLib\BarcodeScanner\BarcodeScannerLib\obj\Debug\ResolveAssemblyReference.cache
+E:\Office Backup\Windows Phone 7 Lib\BarcodeScannerLib\BarcodeScanner\BarcodeScannerLib\obj\Debug\BarcodeScannerLib.dll
+E:\Office Backup\Windows Phone 7 Lib\BarcodeScannerLib\BarcodeScanner\BarcodeScannerLib\obj\Debug\BarcodeScannerLib.pdb

@@ -1,0 +1,75 @@
+C:\Users\tanya\Documents\Visual Studio 2010\Projects\WinMoApp\BarcodeScanner\BarcodeScanner\Bin\Debug\ApplicationIcon.png
+C:\Users\tanya\Documents\Visual Studio 2010\Projects\WinMoApp\BarcodeScanner\BarcodeScanner\Bin\Debug\Background.png
+C:\Users\tanya\Documents\Visual Studio 2010\Projects\WinMoApp\BarcodeScanner\BarcodeScanner\Bin\Debug\BarcodeScanner.dll
+C:\Users\tanya\Documents\Visual Studio 2010\Projects\WinMoApp\BarcodeScanner\BarcodeScanner\Bin\Debug\BarcodeScanner.pdb
+C:\Users\tanya\Documents\Visual Studio 2010\Projects\WinMoApp\BarcodeScanner\BarcodeScanner\Bin\Debug\AppManifest.xaml
+C:\Users\tanya\Documents\Visual Studio 2010\Projects\WinMoApp\BarcodeScanner\BarcodeScanner\Bin\Debug\BarcodeScanner.xap
+C:\Users\tanya\Documents\Visual Studio 2010\Projects\WinMoApp\BarcodeScanner\BarcodeScanner\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\tanya\Documents\Visual Studio 2010\Projects\WinMoApp\BarcodeScanner\BarcodeScanner\obj\Debug\App.g.i.cs
+C:\Users\tanya\Documents\Visual Studio 2010\Projects\WinMoApp\BarcodeScanner\BarcodeScanner\obj\Debug\MainPage.g.i.cs
+C:\Users\tanya\Documents\Visual Studio 2010\Projects\WinMoApp\BarcodeScanner\BarcodeScanner\obj\Debug\BarcodeScanner.g.resources
+C:\Users\tanya\Documents\Visual Studio 2010\Projects\WinMoApp\BarcodeScanner\BarcodeScanner\obj\Debug\BarcodeScanner.dll
+C:\Users\tanya\Documents\Visual Studio 2010\Projects\WinMoApp\BarcodeScanner\BarcodeScanner\obj\Debug\BarcodeScanner.pdb
+C:\Users\tanya\Documents\Visual Studio 2010\Projects\WinMoApp\BarcodeScanner\BarcodeScanner\obj\Debug\XapCacheFile.xml
+C:\Users\tanya\Documents\Visual Studio 2010\Projects\WinMoApp\BarcodeScanner\BarcodeScanner\Bin\Debug\BarcodeScannerLib.dll
+C:\Users\tanya\Documents\Visual Studio 2010\Projects\WinMoApp\BarcodeScanner\BarcodeScanner\Bin\Debug\zxingwp7.dll
+C:\Users\tanya\Documents\Visual Studio 2010\Projects\WinMoApp\BarcodeScanner\BarcodeScanner\Bin\Debug\WriteableBitmapExWinPhone.dll
+C:\Users\tanya\Documents\Visual Studio 2010\Projects\WinMoApp\BarcodeScanner\BarcodeScanner\Bin\Debug\BarcodeScannerLib.pdb
+G:\BarcodeScanner\BarcodeScanner\Bin\Debug\Background.png
+G:\BarcodeScanner\BarcodeScanner\Bin\Debug\BarcodeScanner.dll
+G:\BarcodeScanner\BarcodeScanner\Bin\Debug\BarcodeScanner.pdb
+G:\BarcodeScanner\BarcodeScanner\Bin\Debug\AppManifest.xaml
+G:\BarcodeScanner\BarcodeScanner\Bin\Debug\BarcodeScanner.xap
+G:\BarcodeScanner\BarcodeScanner\Bin\Debug\BarcodeScannerLib.dll
+G:\BarcodeScanner\BarcodeScanner\Bin\Debug\zxingwp7.dll
+G:\BarcodeScanner\BarcodeScanner\Bin\Debug\WriteableBitmapExWinPhone.dll
+G:\BarcodeScanner\BarcodeScanner\Bin\Debug\BarcodeScannerLib.pdb
+G:\BarcodeScanner\BarcodeScanner\obj\Debug\ResolveAssemblyReference.cache
+G:\BarcodeScanner\BarcodeScanner\obj\Debug\App.g.i.cs
+G:\BarcodeScanner\BarcodeScanner\obj\Debug\MainPage.g.i.cs
+G:\BarcodeScanner\BarcodeScanner\obj\Debug\BarcodeScanner.g.resources
+G:\BarcodeScanner\BarcodeScanner\obj\Debug\BarcodeScanner.dll
+G:\BarcodeScanner\BarcodeScanner\obj\Debug\BarcodeScanner.pdb
+G:\BarcodeScanner\BarcodeScanner\obj\Debug\XapCacheFile.xml
+J:\BarcodeScanner\BarcodeScanner\Bin\Debug\Background.png
+J:\BarcodeScanner\BarcodeScanner\Bin\Debug\BarcodeScanner.dll
+J:\BarcodeScanner\BarcodeScanner\Bin\Debug\BarcodeScanner.pdb
+J:\BarcodeScanner\BarcodeScanner\Bin\Debug\AppManifest.xaml
+J:\BarcodeScanner\BarcodeScanner\Bin\Debug\BarcodeScanner.xap
+J:\BarcodeScanner\BarcodeScanner\Bin\Debug\BarcodeScannerLib.dll
+J:\BarcodeScanner\BarcodeScanner\Bin\Debug\zxingwp7.dll
+J:\BarcodeScanner\BarcodeScanner\Bin\Debug\WriteableBitmapExWinPhone.dll
+J:\BarcodeScanner\BarcodeScanner\Bin\Debug\BarcodeScannerLib.pdb
+J:\BarcodeScanner\BarcodeScanner\obj\Debug\ResolveAssemblyReference.cache
+J:\BarcodeScanner\BarcodeScanner\obj\Debug\App.g.i.cs
+J:\BarcodeScanner\BarcodeScanner\obj\Debug\MainPage.g.i.cs
+J:\BarcodeScanner\BarcodeScanner\obj\Debug\BarcodeScanner.g.resources
+J:\BarcodeScanner\BarcodeScanner\obj\Debug\BarcodeScanner.dll
+J:\BarcodeScanner\BarcodeScanner\obj\Debug\BarcodeScanner.pdb
+J:\BarcodeScanner\BarcodeScanner\obj\Debug\XapCacheFile.xml
+G:\BarcodeScanner\BarcodeScanner\Bin\Debug\Microsoft.Silverlight.Testing.dll
+G:\BarcodeScanner\BarcodeScanner\Bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTesting.Silverlight.dll
+G:\BarcodeScanner\BarcodeScanner\Bin\Debug\Microsoft.Silverlight.Testing.pdb
+G:\BarcodeScanner\BarcodeScanner\Bin\Debug\Microsoft.Silverlight.Testing.xml
+G:\BarcodeScanner\BarcodeScanner\Bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTesting.Silverlight.pdb
+G:\BarcodeScanner\BarcodeScanner\Bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTesting.Silverlight.xml
+E:\Office Backup\Windows Phone 7 Lib\BarcodeScannerLib\BarcodeScanner\BarcodeScanner\Bin\Debug\Background.png
+E:\Office Backup\Windows Phone 7 Lib\BarcodeScannerLib\BarcodeScanner\BarcodeScanner\Bin\Debug\BarcodeScanner.dll
+E:\Office Backup\Windows Phone 7 Lib\BarcodeScannerLib\BarcodeScanner\BarcodeScanner\Bin\Debug\BarcodeScanner.pdb
+E:\Office Backup\Windows Phone 7 Lib\BarcodeScannerLib\BarcodeScanner\BarcodeScanner\Bin\Debug\AppManifest.xaml
+E:\Office Backup\Windows Phone 7 Lib\BarcodeScannerLib\BarcodeScanner\BarcodeScanner\Bin\Debug\BarcodeScanner.xap
+E:\Office Backup\Windows Phone 7 Lib\BarcodeScannerLib\BarcodeScanner\BarcodeScanner\Bin\Debug\BarcodeScannerLib.dll
+E:\Office Backup\Windows Phone 7 Lib\BarcodeScannerLib\BarcodeScanner\BarcodeScanner\Bin\Debug\zxingwp7.dll
+E:\Office Backup\Windows Phone 7 Lib\BarcodeScannerLib\BarcodeScanner\BarcodeScanner\Bin\Debug\WriteableBitmapExWinPhone.dll
+E:\Office Backup\Windows Phone 7 Lib\BarcodeScannerLib\BarcodeScanner\BarcodeScanner\Bin\Debug\BarcodeScannerLib.pdb
+E:\Office Backup\Windows Phone 7 Lib\BarcodeScannerLib\BarcodeScanner\BarcodeScanner\Bin\Debug\Microsoft.Silverlight.Testing.pdb
+E:\Office Backup\Windows Phone 7 Lib\BarcodeScannerLib\BarcodeScanner\BarcodeScanner\Bin\Debug\Microsoft.Silverlight.Testing.xml
+E:\Office Backup\Windows Phone 7 Lib\BarcodeScannerLib\BarcodeScanner\BarcodeScanner\Bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTesting.Silverlight.pdb
+E:\Office Backup\Windows Phone 7 Lib\BarcodeScannerLib\BarcodeScanner\BarcodeScanner\Bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTesting.Silverlight.xml
+E:\Office Backup\Windows Phone 7 Lib\BarcodeScannerLib\BarcodeScanner\BarcodeScanner\obj\Debug\ResolveAssemblyReference.cache
+E:\Office Backup\Windows Phone 7 Lib\BarcodeScannerLib\BarcodeScanner\BarcodeScanner\obj\Debug\App.g.i.cs
+E:\Office Backup\Windows Phone 7 Lib\BarcodeScannerLib\BarcodeScanner\BarcodeScanner\obj\Debug\MainPage.g.i.cs
+E:\Office Backup\Windows Phone 7 Lib\BarcodeScannerLib\BarcodeScanner\BarcodeScanner\obj\Debug\BarcodeScanner.g.resources
+E:\Office Backup\Windows Phone 7 Lib\BarcodeScannerLib\BarcodeScanner\BarcodeScanner\obj\Debug\BarcodeScanner.dll
+E:\Office Backup\Windows Phone 7 Lib\BarcodeScannerLib\BarcodeScanner\BarcodeScanner\obj\Debug\BarcodeScanner.pdb
+E:\Office Backup\Windows Phone 7 Lib\BarcodeScannerLib\BarcodeScanner\BarcodeScanner\obj\Debug\XapCacheFile.xml

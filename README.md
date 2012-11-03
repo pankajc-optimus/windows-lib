@@ -1,4 +1,0 @@
-windows-lib
-===========
-
-Windows Library

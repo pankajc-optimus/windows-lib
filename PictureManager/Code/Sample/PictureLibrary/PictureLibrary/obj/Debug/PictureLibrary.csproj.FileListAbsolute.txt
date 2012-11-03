@@ -1,0 +1,13 @@
+c:\users\tanya\documents\visual studio 2010\Projects\WinMoApp\PictureLibrary\PictureLibrary\Bin\Debug\ApplicationIcon.png
+c:\users\tanya\documents\visual studio 2010\Projects\WinMoApp\PictureLibrary\PictureLibrary\Bin\Debug\Background.png
+c:\users\tanya\documents\visual studio 2010\Projects\WinMoApp\PictureLibrary\PictureLibrary\Bin\Debug\PictureLibrary.dll
+c:\users\tanya\documents\visual studio 2010\Projects\WinMoApp\PictureLibrary\PictureLibrary\Bin\Debug\PictureLibrary.pdb
+c:\users\tanya\documents\visual studio 2010\Projects\WinMoApp\PictureLibrary\PictureLibrary\Bin\Debug\AppManifest.xaml
+c:\users\tanya\documents\visual studio 2010\Projects\WinMoApp\PictureLibrary\PictureLibrary\Bin\Debug\PictureLibrary.xap
+c:\users\tanya\documents\visual studio 2010\Projects\WinMoApp\PictureLibrary\PictureLibrary\obj\Debug\ResolveAssemblyReference.cache
+c:\users\tanya\documents\visual studio 2010\Projects\WinMoApp\PictureLibrary\PictureLibrary\obj\Debug\App.g.i.cs
+c:\users\tanya\documents\visual studio 2010\Projects\WinMoApp\PictureLibrary\PictureLibrary\obj\Debug\MainPage.g.i.cs
+c:\users\tanya\documents\visual studio 2010\Projects\WinMoApp\PictureLibrary\PictureLibrary\obj\Debug\PictureLibrary.g.resources
+c:\users\tanya\documents\visual studio 2010\Projects\WinMoApp\PictureLibrary\PictureLibrary\obj\Debug\PictureLibrary.dll
+c:\users\tanya\documents\visual studio 2010\Projects\WinMoApp\PictureLibrary\PictureLibrary\obj\Debug\PictureLibrary.pdb
+c:\users\tanya\documents\visual studio 2010\Projects\WinMoApp\PictureLibrary\PictureLibrary\obj\Debug\XapCacheFile.xml

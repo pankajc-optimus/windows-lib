@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarcodeScanner", "BarcodeScanner\BarcodeScanner.csproj", "{FEB29B9D-9C96-4EA3-A9D6-F9E450F0DB3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarcodeScannerLib", "BarcodeScannerLib\BarcodeScannerLib.csproj", "{B1678C86-C805-4A1D-82CC-FE7C2F84F750}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEB29B9D-9C96-4EA3-A9D6-F9E450F0DB3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEB29B9D-9C96-4EA3-A9D6-F9E450F0DB3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEB29B9D-9C96-4EA3-A9D6-F9E450F0DB3C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FEB29B9D-9C96-4EA3-A9D6-F9E450F0DB3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEB29B9D-9C96-4EA3-A9D6-F9E450F0DB3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEB29B9D-9C96-4EA3-A9D6-F9E450F0DB3C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B1678C86-C805-4A1D-82CC-FE7C2F84F750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1678C86-C805-4A1D-82CC-FE7C2F84F750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1678C86-C805-4A1D-82CC-FE7C2F84F750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1678C86-C805-4A1D-82CC-FE7C2F84F750}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
